@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 315452138}
   - component: {fileID: 315452136}
   - component: {fileID: 315452135}
+  - component: {fileID: 315452137}
+  - component: {fileID: 315452139}
   - component: {fileID: 315452134}
   - component: {fileID: 315452133}
   m_Layer: 8
@@ -166,14 +168,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 315452132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a0653767b941a84686f52c5055690ab, type: 3}
+  m_Script: {fileID: 11500000, guid: d215d8d5d5bacfd4bad316807e0db457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 512
-  horizontalRayCount: 4
-  verticalRayCount: 4
+  anim: {fileID: 0}
 --- !u!61 &315452135
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -250,6 +248,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &315452137
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315452132}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 118965b614e5e9a4c93b0575753db8e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &315452138
 Transform:
   m_ObjectHideFlags: 0
@@ -264,6 +281,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &315452139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315452132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0653767b941a84686f52c5055690ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 512
+  horizontalRayCount: 4
+  verticalRayCount: 4
 --- !u!1 &501394716
 GameObject:
   m_ObjectHideFlags: 0

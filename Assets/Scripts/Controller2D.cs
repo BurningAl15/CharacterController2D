@@ -19,6 +19,8 @@ public class Controller2D : MonoBehaviour
     private BoxCollider2D collider;
     private RaycastOrigins raycastOrigins;
 
+    public CollisionInfo collisions;
+    
     void Start()
     {
         collider = GetComponent<BoxCollider2D>();
@@ -33,6 +35,8 @@ public class Controller2D : MonoBehaviour
     {
         UpdateRaycastOrigins();
         
+        collisions.Reset();
+        
         // Collisions
         // Control the horizontal raycasting showing it just if horizontal velocity is different of 0
         if (velocity.x != 0)
@@ -42,10 +46,14 @@ public class Controller2D : MonoBehaviour
         
         // Control the vertical raycasting showing it just if vertical velocity is different of 0
         if (velocity.y != 0)
+        {
             VerticalCollisions(ref velocity);
+        }
         
         transform.Translate(velocity);
     }
+
+    #region Collision Utils
 
     /// <summary>
     /// Checks Horizontal collisions
@@ -71,10 +79,12 @@ public class Controller2D : MonoBehaviour
             {
                 velocity.x = (hit.distance-skinWidth) * directionX;
                 rayLength = hit.distance;
+
+                collisions.left = directionX == -1;
+                collisions.right = directionX == 1;
             }
         }
     }
-
     
     /// <summary>
     /// Vertical Collisions that use raycast to check the direction of Y, and the length of the ray 
@@ -100,10 +110,28 @@ public class Controller2D : MonoBehaviour
             {
                 velocity.y = (hit.distance-skinWidth) * directionY;
                 rayLength = hit.distance;
+                
+                collisions.below = directionY == -1;
+                collisions.above = directionY == 1;
             }
         }
     }
 
+    public struct CollisionInfo
+    {
+        public bool above, below;
+        public bool left, right;
+
+        public void Reset()
+        {
+            above = below = false;
+            left = right = false;
+        }
+    }
+  
+    #endregion
+    
+    
     #region Raycast Origins Utils
 
     /// <summary>

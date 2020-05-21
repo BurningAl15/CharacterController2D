@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,12 +18,16 @@ public class RaycastController : MonoBehaviour
     public BoxCollider2D collider;
     [HideInInspector] public RaycastOrigins raycastOrigins;
     
-    public virtual void Start()
+    public virtual void Awake()
     {
         collider = GetComponent<BoxCollider2D>();
+    }
+
+    public virtual void Start()
+    {
         CalculateRaySpacing();
     }
-    
+
     #region Raycast Origins Utils
     /// <summary>
     /// Bounds of the player and where the raycast origin comes from (positioning raycast points using the bounds to be more precise)

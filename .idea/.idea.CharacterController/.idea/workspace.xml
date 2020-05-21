@@ -34,8 +34,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerRendering.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Controller2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589937336888</updated>
       <workItem from="1589937343708" duration="16826000" />
-      <workItem from="1590016752845" duration="11383000" />
+      <workItem from="1590016752845" duration="18424000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,8 @@
     <list default="true" id="b83b5d7e-d75d-4e13-b84e-5735b013d565" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerRendering.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Controller2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Controller2D.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589937336888</updated>
       <workItem from="1589937343708" duration="16826000" />
-      <workItem from="1590016752845" duration="21526000" />
+      <workItem from="1590016752845" duration="25049000" />
     </task>
     <servers />
   </component>
@@ -109,5 +111,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1244" y="242" key="run.anything.popup" timestamp="1590055669543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1244" y="242" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1590055669543" />
   </component>
 </project>

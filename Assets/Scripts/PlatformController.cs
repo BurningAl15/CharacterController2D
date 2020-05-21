@@ -9,7 +9,7 @@ public class PlatformController : RaycastController
     public LayerMask passengerMask;
 
     public Vector3[] localWaypoints;
-    Vector3[] globalWaypoints;
+    private Vector3[] globalWaypoints;
 
     public float speed;
     public bool cyclic;
@@ -17,12 +17,12 @@ public class PlatformController : RaycastController
     [Range(0,2)]
     public float easeAmount;
 
-    int fromWaypointIndex;
-    float percentBetweenWaypoints;
-    float nextMoveTime;
+    private int fromWaypointIndex;
+    private float percentBetweenWaypoints;
+    private float nextMoveTime;
 
-    List<PassengerMovement> passengerMovement;
-    Dictionary<Transform, Controller2D> passengerDictionary = new Dictionary<Transform, Controller2D>();
+    private List<PassengerMovement> passengerMovement;
+    private Dictionary<Transform, Controller2D> passengerDictionary = new Dictionary<Transform, Controller2D>();
 
     public override void Start()
     {

@@ -12,15 +12,15 @@ public class CameraFollow : MonoBehaviour
 	public float verticalSmoothTime;
 	public Vector2 focusAreaSize;
 
-	FocusArea focusArea;
+	private FocusArea focusArea;
 
-	float currentLookAheadX;
-	float targetLookAheadX;
-	float lookAheadDirX;
-	float smoothLookVelocityX;
-	float smoothVelocityY;
+	private float currentLookAheadX;
+	private float targetLookAheadX;
+	private float lookAheadDirX;
+	private float smoothLookVelocityX;
+	private float smoothVelocityY;
 
-	bool lookAheadStopped;
+	private bool lookAheadStopped;
 
 	void Start()
 	{

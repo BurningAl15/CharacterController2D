@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 315452139}
   - component: {fileID: 315452134}
   - component: {fileID: 315452133}
+  - component: {fileID: 315452140}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -155,11 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b98ad0eeecc1741b53a2e108e4d19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxJumpHeigth: 3.5
+  maxJumpHeight: 4
   minJumpHeight: 1
   timeToJumpApex: 0.4
-  moveSpeed: 6
-  gravity: 0
   wallJumpClimb: {x: 7.5, y: 16}
   wallJumpOff: {x: 8.5, y: 7}
   wallLeap: {x: 18, y: 17}
@@ -307,6 +306,19 @@ MonoBehaviour:
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
   collider: {fileID: 0}
+  playerInput: {x: 0, y: 0}
+--- !u!114 &315452140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315452132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6456676890fea304ab561428b7a634a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &501394716
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +467,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 315452139}
+  verticalOffset: 1
+  lookAheadDstX: 4
+  lookSmoothTimeX: 0.5
+  verticalSmoothTime: 0.1
   focusAreaSize: {x: 3, y: 5}
 --- !u!20 &519420031
 Camera:
@@ -705,10 +721,10 @@ MonoBehaviour:
   localWaypoints:
   - {x: 0, y: 3.48, z: 0}
   - {x: 0, y: -0.29, z: 0}
-  waitTime: 1
-  easeAmount: 1
   speed: 5
   cyclic: 0
+  waitTime: 1
+  easeAmount: 1
 --- !u!61 &1162648990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1169,10 +1185,10 @@ MonoBehaviour:
   - {x: 3.65, y: 3.48, z: 0}
   - {x: -2.03, y: 3.48, z: 0}
   - {x: -2.03, y: -0.29, z: 0}
-  waitTime: 1
-  easeAmount: 1.5
   speed: 5
   cyclic: 0
+  waitTime: 1
+  easeAmount: 1.5
 --- !u!61 &1594453608
 BoxCollider2D:
   m_ObjectHideFlags: 0

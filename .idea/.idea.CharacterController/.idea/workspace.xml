@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83b5d7e-d75d-4e13-b84e-5735b013d565" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Untitled - 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Untitled - 1.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterController/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RaycastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RaycastController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +39,13 @@
         <option value="$PROJECT_DIR$/Assets/PlayerRendering.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRendering.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Controller2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RaycastController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerRendering.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/Controller2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlatformController.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589937336888</updated>
       <workItem from="1589937343708" duration="16826000" />
-      <workItem from="1590016752845" duration="30747000" />
+      <workItem from="1590016752845" duration="39530000" />
     </task>
     <servers />
   </component>
